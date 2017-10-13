@@ -1,0 +1,46 @@
+The downloaded binary packages are in
+	C:\Users\Nattaya\AppData\Local\Temp\RtmpY9NBuB\downloaded_packages
+> library(swirl)
+Error: package or namespace load failed for ‘swirl’ in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]):
+ #there is no package called ‘R6’
+ 
+ #They ask to install package "R6". So, Let's try to download 'R6' package.
+ 
+> install.packages("R6")
+Installing package into ‘C:/Users/Nattaya/Documents/R/win-library/3.4’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/R6_2.2.2.zip'
+Content type 'application/zip' length 316850 bytes (309 KB)
+downloaded 309 KB
+
+package ‘R6’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Nattaya\AppData\Local\Temp\RtmpY9NBuB\downloaded_packages
+> library(swirl)
+Error: package or namespace load failed for ‘swirl’ in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]):
+ there is no package called ‘magrittr’
+ 
+ #Again, They ask for  "magrittr", I don't know what the hell is it? But Let's try it again.!!
+> install.packages("magrittr")
+Installing package into ‘C:/Users/Nattaya/Documents/R/win-library/3.4’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/magrittr_1.5.zip'
+Content type 'application/zip' length 155733 bytes (152 KB)
+downloaded 152 KB
+
+package ‘magrittr’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Nattaya\AppData\Local\Temp\RtmpY9NBuB\downloaded_packages
+> 
+Tadaaaaa!!!  Finally, I can fix it
+> library(swirl)
+
+| Hi! I see that you have some variables saved in your workspace. To keep things
+| running smoothly, I recommend you clean up before starting swirl.
+
+| Type ls() to see a list of the variables in your workspace. Then, type
+| rm(list=ls()) to clear your workspace.
+
+| Type swirl() when you are ready to begin.
